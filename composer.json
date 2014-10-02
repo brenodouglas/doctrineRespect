@@ -1,4 +1,13 @@
 {
+    "name": "brenodouglas/mvc",
+    "description": "Utility config doctrine",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Breno Douglas",
+            "email": "breno_douglas@hotmail.com"
+        }
+    ],
     "require": {
         "php" : ">=5.3",
         "doctrine/common": "2.4.*",
