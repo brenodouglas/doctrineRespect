@@ -8,16 +8,15 @@ Require
   
 In index.php
 
-  <?php 
       require 'autoload.php';
       
       \RespectDoctrine\Doctrine\Doctrine::setConfigDir("config.php");
       $doctrine = new Doctrine();
       $em = $doctrine->getEntityManager();
-      
+  
   
 In config.php
-  <?php 
+
     return [
     'database' => [
         
