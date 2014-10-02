@@ -26,7 +26,7 @@ In config.php
               'dbname' => "application",
               'user' => 'root',
               'port' => null,
-              'password' => '159951',
+              'password' => '',
               'host' => 'localhost',
               'driver' => 'pdo_mysql'
           ],
